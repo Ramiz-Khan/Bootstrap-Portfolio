@@ -81,7 +81,7 @@ h2 {
 
 img {
 	float: left;
-	display: inline;
+	display: block;
  	height: 200px;
  	width: 200px;
  	border: transparent 1px solid;
@@ -97,6 +97,7 @@ ul {
 	display: inline;
 	margin: auto;
 	margin-left: auto;
+
 }
 
  .headercontent li {
@@ -105,9 +106,8 @@ ul {
 	margin-top:auto;
 	margin-bottom: auto;
 	padding: auto;
-	text-decoration: none;\
-	position: absolute;
-	left: 80px;
+	text-decoration: none;
+
 }
 p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -131,18 +131,24 @@ table 	{
 	align-content: center;
 }
 .headercontent a {
+	position: relative;
+	left: 550px;
 	color: #333333;
-    display: inline;
+    display: block;
     padding: 10px;
     background-color: transparent;
     margin-left: 10px;
     margin-right: 10px;
     border: transparent 1px solid;
+    border-radius: 5px;
     margin-top: 25px;
     margin-bottom: auto;
     text-decoration: none;
 }
 
+.block ul {
+	text-align: right;
+}
 
 .about-me {
 	display: inline-block;
@@ -157,6 +163,7 @@ table 	{
 	margin-left: 80px;
 	margin-top: 80px;
 	padding: 10px;
+	padding-bottom: 30px;
 }
 .box-2 {
 	background: white;
@@ -230,7 +237,6 @@ table 	{
 	padding-left: 10px;
 	margin: 10px;
 }
-
 
 
 
