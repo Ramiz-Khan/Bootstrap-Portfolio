@@ -1,0 +1,18 @@
+body { 
+	padding-top: 80px;
+	padding-bottom: 70px; 
+	background-color: blue;
+}
+
+.nav.navbar-nav.navbar-right ul {
+	line-height: 300px;
+}
+
+.jumbotron {
+	margin-top: 150px;
+}
+.box1 {
+	height: 300px;
+	width: 100%;
+	background: white;
+}
